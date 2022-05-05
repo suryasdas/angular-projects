@@ -1,14 +1,15 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-import { UiControlsComponent } from 'ui-controls';
 import { AppComponent } from './app.component';
+import { UiControlsModule } from 'ui-controls';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule,UiControlsComponent
+    BrowserModule,UiControlsModule,FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

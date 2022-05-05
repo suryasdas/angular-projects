@@ -9,5 +9,13 @@ import { assassins } from './assassins';
 })
 export class AppComponent {
   title = 'my-components';
-  cards : Card[] = assassins;
+  cards : Card [] = assassins;
+
+  onCardChange(cards: Card[]){
+    console.log(cards);
+  }
+
+  log(){
+    alert('copied to the board');
+  }
 }
