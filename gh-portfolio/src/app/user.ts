@@ -1,5 +1,5 @@
 export interface User {
-    avatarUrl: string;
+    avatar_url: string;
     name: string;
     blog: string;
     location: string;
